@@ -1,0 +1,21 @@
+{
+  "name": "arquitetura",
+  "version": "1.0.0",
+  "description": "Projeto para iniciar os estudos da Carol em Arquitetura",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "test",
+    "start": "node src/server.js"
+  },
+  "author": "Wesley",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.21.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "prisma": "^5.21.1"
+  }
+}
